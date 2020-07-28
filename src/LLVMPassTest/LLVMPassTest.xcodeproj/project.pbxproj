@@ -286,10 +286,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34E443NFE9;
+				GCC_VERSION = com.apple.compilers.llvm.clang.hacked;
 				INFOPLIST_FILE = LLVMPassTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-load",
+					"-Xclang",
+					/Users/matias/Desktop/matias_LLVM/llvm_xcode/Debug/lib/MTPlugin.dylib,
+					"-Xclang",
+					"-add-plugin",
+					"-Xclang",
+					MTPlugin,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.matias.develop.LLVMPassTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,10 +315,21 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 34E443NFE9;
+				GCC_VERSION = com.apple.compilers.llvm.clang.hacked;
 				INFOPLIST_FILE = LLVMPassTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-load",
+					"-Xclang",
+					/Users/matias/Desktop/matias_LLVM/llvm_xcode/Debug/lib/MTPlugin.dylib,
+					"-Xclang",
+					"-add-plugin",
+					"-Xclang",
+					MTPlugin,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.matias.develop.LLVMPassTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

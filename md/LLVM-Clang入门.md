@@ -7,3 +7,15 @@
 [LLVM学习](https://github.com/Guwudao/LLVM)
 [LLVM下载编译以及Pass开发大致流程](https://www.jianshu.com/p/b48c1b482c82)
 [基于LLVM开发Clang插件进行代码风格检查](https://llvm.zcopy.site/post/61090.html?nsukey=rkpm8K7ylZUWt8Ys%2FDvk7%2BH5O3KGsSct4mG%2BGa0L1kc9Alm0O3%2F0U2C4CG3XQHa3EVWHUxMJC20kAOpEEEk7qbwjMIB7C6qqG6xDM7bWr1dAwgFXOudWDYjYT8pIbcgraTBv4ylsEbaODNd7XHZyy4d1ud%2FADb%2FzZSMfzYn%2F5ZfodSQIVNWVsH95gxZ3CxaE)
+
+## 加载使用
+
+```
+-Xclang -load -Xclang 动态库路径 -Xclang -add-plugin -Xclang 插件名称
+-Xclang -load -Xclang /Users/matias/Desktop/matias_LLVM/llvm_xcode/Debug/lib/MTPlugin.dylib -Xclang -add-plugin -Xclang MTPlugin
+```
+
+## XCodeHacking
+
+[XCodeHacking](https://github.com/AshBass/XCodeHacking)
+[Xcode 更改默认版本 xcode-select](https://www.jianshu.com/p/f1ea595ac9e0)

@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    func _llvm_test() -> String {
+        return "LLVM Pass Test"
+    }
 }
 
